@@ -7,4 +7,8 @@ private:
     int FRONT, REAR;
     int queue_array[max];
 public:
+    Queues() {
+        FRONT = -1;
+        REAR = -1; //jika array masih belum ada isinya
+    }
 };
