@@ -11,4 +11,8 @@ public:
         FRONT = -1;
         REAR = -1; //jika array masih belum ada isinya
     }
+
+    void insert() {
+        
+    }
 };
