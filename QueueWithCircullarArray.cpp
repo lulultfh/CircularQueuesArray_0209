@@ -37,5 +37,6 @@ public:
             else 
                 REAR = REAR + 1; //step 3
         }
+        queue_array[REAR] = num; //step 4
     }
 };
